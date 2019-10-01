@@ -7,6 +7,7 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
+import Header from './components/Header/Header';
 import './App.css';
 
 
@@ -138,6 +139,7 @@ class App extends React.Component {
       <Particles className="particles"
                 params={particlesOptions} />
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        <Header />
         { route === "home" ?
         <div>
             <Logo />
