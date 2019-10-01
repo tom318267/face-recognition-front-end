@@ -49,11 +49,11 @@ class SignIn extends React.Component {
                 <legend className="f2 fw6 ph0 mh0">Sign In</legend>
                 <div className="mt3">
                   <label className="db fw6 lh-copy f4" htmlFor="email-address">Email</label>
-                  <input onChange={this.onEmailChange} className="f3 pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address"/>
+                  <input onChange={this.onEmailChange} className="f4 pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address"/>
                 </div>
                 <div className="mv3">
                   <label className="db fw6 lh-copy f4" htmlFor="password">Password</label>
-                  <input onChange={this.onPasswordChange} className="f3 b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
+                  <input onChange={this.onPasswordChange} className="f4 b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
                 </div>
               </fieldset>
               <div className="">

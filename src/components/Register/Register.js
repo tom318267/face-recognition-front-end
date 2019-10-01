@@ -54,17 +54,17 @@ class Register extends React.Component {
                 <legend className="f2 fw6 ph0 mh0">Register</legend>
                 <div className="mt3">
                   <label className="db fw6 lh-copy f4" htmlFor="name">Name</label>
-                  <input onChange={this.onNameChange} className="f3 pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="name"  id="name"/>
+                  <input onChange={this.onNameChange} className="f4 pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="name"  id="name"/>
                 </div>
 
                 <div className="mt3">
                   <label className="db fw6 lh-copy f4" htmlFor="name">Email</label>
-                  <input onChange={this.onEmailChange} className="f3 pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email"  id="email"/>
+                  <input onChange={this.onEmailChange} className="f4 pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email"  id="email"/>
                 </div>
 
                 <div className="mv3">
                   <label className="db fw6 lh-copy f4" htmlFor="password">Password</label>
-                  <input onChange={this.onPasswordChange} className="f3 b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
+                  <input onChange={this.onPasswordChange} className="f4 b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
                 </div>
               </fieldset>
               <div className="">
