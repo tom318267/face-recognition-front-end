@@ -1,5 +1,5 @@
-@media only screen and (max-width: 600px) {
-  .entry {
-    font-size: 1.3rem!important;
+@media only screen and (max-width: 425px) {
+  .entryText, .entryNumber {
+    font-size: 1rem!important;
   }
 }
